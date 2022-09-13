@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <style>
+        .aca {
+            padding: 1em;
+            background-color: black;
+            font-size: 2rem;
+            margin: 0 auto;
+            max-width: 5em;
+            color: white;
+
+            border-radius: 1em;
+            cursor: pointer;
+            transform: translate(-100vw, 0);
+
+            transition: 1s;
+        }
+
+  
+        .aca.desabilitada {
+            transform: translate(0vw, 0);
+        }
+    </style>
+  
+    
+    <div class="aca">
+        Pagina con Javascript
+    </div>
+
+
+    <script>
+        function asd() {
+            document.querySelector(".aca").classList.add("desabilitada");
+        }
+    </script>
+</body>
+</html>
